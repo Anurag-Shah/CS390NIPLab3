@@ -78,7 +78,7 @@ tf.compat.v1.disable_eager_execution()
 #=============================<Helper Fuctions>=================================
 
 def deprocessImage(img):
-	Finallyfinal = np.copy(img)
+	final = np.copy(img)
 
 	# Change the shape to image (500, 500, 3) instead of like (1, 500, 500 3)
 	final = final.reshape((CONTENT_IMG_H, CONTENT_IMG_W, 3))
